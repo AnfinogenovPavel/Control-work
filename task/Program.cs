@@ -16,8 +16,8 @@ int n = 3;
 string[] arrayOne = new string[size];
 
 Console.WriteLine($"Введите набор символов, обозначающих значение строкового элемента массива, {size} раз через энтерБ, без пробела");
-//FillArray(arrayOne);
-FillFillArrayRandomly(arrayOne);
+FillArray(arrayOne);
+//FillFillArrayRandomly(arrayOne); //Вариант заполнения массива рандомно.
 Console.Clear();
 PrintArray(arrayOne);
 Console.WriteLine($"Новый массив, содержащий элементы, размер которых меньше либо равен {n}:");
